@@ -9,7 +9,7 @@ class Liblas17 < Formula
 
   depends_on 'cmake' => :build
   depends_on 'libgeotiff'
-  depends_on 'gdal-110'
+  depends_on 'gdal'
   depends_on 'boost'
   depends_on 'laszip' => :optional
 

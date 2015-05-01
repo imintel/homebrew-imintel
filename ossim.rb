@@ -26,7 +26,7 @@ class Ossim < Formula
   depends_on 'liblas17' if build.include? 'enable-las'
 
   if build.include? 'enable-gdal'
-    depends_on 'gdal-110'
+    depends_on 'gdal'
     depends_on 'sqlite'
     depends_on 'proj'
   end
