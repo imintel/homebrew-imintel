@@ -12,6 +12,8 @@ cask 'libreoffice43-mf' do
   binary 'soffice'
 
   preflight do
+    require 'fileutils'
+    FileUtils.mkdir_p("#{staged_path}")
     bin_launcher = "#{staged_path}/soffice"
 
     File.open(bin_launcher, 'w') do |f|
