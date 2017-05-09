@@ -48,6 +48,7 @@ class Ossim < Formula
       "-DBUILD_OSSIMCSM_PLUGIN=ON",
       "-DBUILD_OSSIMPNG_PLUGIN=ON",
       "-DBUILD_OSSIMREGISTRATION_PLUGIN=ON",
+      "-DBUILD_OSSIMCSM_PLUGIN=OFF",
     ]
 
     args += [
