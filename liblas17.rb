@@ -20,7 +20,7 @@ class Liblas17 < Formula
   # https://github.com/libLAS/libLAS/issues/33
   patch do
     url "https://github.com/libLAS/libLAS/commit/b8799e.diff"
-    sha1 "d07848568be08e72b50008a45506b4db34640b629d72ff9931e55bd04af21a64"
+    sha256 "d07848568be08e72b50008a45506b4db34640b629d72ff9931e55bd04af21a64"
   end
 
   def install
