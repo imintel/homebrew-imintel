@@ -4,7 +4,7 @@ require 'pp'
 class Ossim < Formula
   homepage 'http://www.ossim.org/'
   url "http://download.osgeo.org/ossim/source/ossim-1.8.18/ossim-1.8.18-1.tar.gz"
-  sha1 "71881399cd999774c6daa926eee10c2e544aad3b"
+  sha256 "d808eb868fa132222df4b70ef9ab03a1a0c9e0a76477c23e01c153656effb591"
   revision 1
 
   option 'enable-gdal', 'Build with the gdal plugin.'
