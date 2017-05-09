@@ -3,8 +3,8 @@ require 'pp'
 
 class Ossim < Formula
   homepage 'http://www.ossim.org/'
-  url "http://download.osgeo.org/ossim/source/ossim-1.8.20/ossim-1.8.20-1.tar.gz"
-  sha256 "a9148cbc7eebaed1d09d139e68c038592edcf74318ec2623f21494aa56879f52"
+  url "http://download.osgeo.org/ossim/source/ossim-1.8.18/ossim-1.8.18-1.tar.gz"
+  sha256 "d808eb868fa132222df4b70ef9ab03a1a0c9e0a76477c23e01c153656effb591"
   revision 1
 
   option 'enable-gdal', 'Build with the gdal plugin.'
