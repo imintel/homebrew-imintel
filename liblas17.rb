@@ -3,7 +3,7 @@ require 'formula'
 class Liblas17 < Formula
   homepage 'http://liblas.org'
   url 'http://download.osgeo.org/liblas/libLAS-1.7.0.tar.gz'
-  sha1 'f31070efdf7bb7d6675c23c6c6c84584e3a10869'
+  sha256 'e6b30c4530fef283e680fac59b199e1be6b96994fb663d08fd12838eef928277'
 
   head 'https://github.com/libLAS/libLAS.git'
 
